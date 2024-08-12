@@ -1,0 +1,30 @@
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 0 0.8rem;
+    width: -webkit-fill-available;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-icon{
+    margin-right: 0.5rem;
+}
+
+
+.styled-input{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+}
+
+input{
+    
+    font-family: var(--font-family-nunito-sans);
+}

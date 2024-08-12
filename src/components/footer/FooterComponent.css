@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--Off-White);
+}
+
+
+.footer ul{
+    list-style: none;
+}
+
+.media-container{
+    display: flex;
+    gap:0.75rem;
+    color: var(--Text-Black);
+}
+
+.text-sm{
+    color: var(--blue);
+}

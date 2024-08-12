@@ -1,0 +1,44 @@
+
+
+.container {
+    max-width: 600px;
+    margin-top: 5rem;
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.register_container {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.text-primary {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+
+.bold-text-black {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    color: var(--Text-Black);
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+input {
+    border: none;
+    width: 100%;
+}

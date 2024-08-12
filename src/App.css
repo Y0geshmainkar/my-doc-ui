@@ -1,0 +1,32 @@
+:root {
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+  --font-family-nunito-sans: "Nunito Sans";
+
+
+  --White: #fff;
+  --Black: #000;
+  --Off-White: #F8F8F8;
+  --Button-Primary-BG_Default: #098A1D;
+  --Text-Black: #474C55;
+  --Off-green: #20DF7F;
+  --blue: #224957;
+  --mediumslateblue: #624DE3;
+
+
+  .mb-20 {
+     margin-bottom: 1.6rem;
+  }
+
+  .btn {
+     width: 100%;
+     padding: 0.6rem;
+     border-radius: 6.25rem;
+     background: var(--mediumslateblue);
+     color: var(--White);
+  }
+  .btn:hover{
+     background: var(--White);
+     color: var(--Black);
+  }
+}
